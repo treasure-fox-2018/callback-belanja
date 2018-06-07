@@ -8,8 +8,8 @@ function beli(uang, obj, cb){
       console.log(`Saya sudah membeli ${obj.item} uang kembaliannya ${kembalian}`);
       cb(kembalian)
     }else{
-      console.log(`uang gk cukup nih buat beli ${obj.item} kembaliannya cuma ${kembalian}`);
-      cb(0)
+      console.log(`uang gk cukup nih buat beli ${obj.item} sisa uangnya cuma ${uang}`);
+      cb(uang)
     }
   }, obj.waktu);
 }
