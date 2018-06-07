@@ -1,3 +1,5 @@
+"use strict"
+
 function beli(uang, obj, cb){
   console.log(`Saya pergi membeli ${obj.item}`)
   setTimeout(function(){
