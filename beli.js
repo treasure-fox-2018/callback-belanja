@@ -13,3 +13,11 @@ function beli(uang, obj, cb){
 }
 
 module.exports = beli;
+
+// 
+// nasiBungkus(12, 'Imam', function(getTotalBungkusan, namaresto) {
+//   console.log(getTotalBungkusan);
+//   console.log(namaResto);
+//   hitungNasiBungkus()
+
+// })
